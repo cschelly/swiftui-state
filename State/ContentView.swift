@@ -9,8 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var likesCats = true
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Toggle(isOn: $likesCats) {
+                Text("Like Cats")
+            }.padding(100)
+            if likesCats {
+                Image("kitty")
+            }
+        }
     }
 }
 

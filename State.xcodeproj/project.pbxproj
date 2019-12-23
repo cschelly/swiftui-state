@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFD62006238B9374006DFDDB /* PropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD62005238B9374006DFDDB /* PropertyView.swift */; };
 		CFD96F912380FB9300B33BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD96F902380FB9300B33BAF /* AppDelegate.swift */; };
 		CFD96F932380FB9300B33BAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD96F922380FB9300B33BAF /* SceneDelegate.swift */; };
 		CFD96F952380FB9300B33BAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD96F942380FB9300B33BAF /* ContentView.swift */; };
 		CFD96F972380FB9600B33BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD96F962380FB9600B33BAF /* Assets.xcassets */; };
 		CFD96F9A2380FB9600B33BAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD96F992380FB9600B33BAF /* Preview Assets.xcassets */; };
 		CFD96F9D2380FB9600B33BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD96F9B2380FB9600B33BAF /* LaunchScreen.storyboard */; };
+		CFD96FA72380FCE200B33BAF /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD96FA62380FCE200B33BAF /* Taco.swift */; };
+		CFD96FA9238101BD00B33BAF /* TacoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD96FA8238101BD00B33BAF /* TacoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CFD96F8D2380FB9300B33BAF /* State.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = State.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD62005238B9374006DFDDB /* PropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyView.swift; sourceTree = "<group>"; };
+		CFD96F8D2380FB9300B33BAF /* State1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = State1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD96F902380FB9300B33BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFD96F922380FB9300B33BAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CFD96F942380FB9300B33BAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		CFD96F992380FB9600B33BAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFD96F9C2380FB9600B33BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFD96F9E2380FB9600B33BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD96FA62380FCE200B33BAF /* Taco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
+		CFD96FA8238101BD00B33BAF /* TacoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		CFD96F8E2380FB9300B33BAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFD96F8D2380FB9300B33BAF /* State.app */,
+				CFD96F8D2380FB9300B33BAF /* State1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +64,10 @@
 			children = (
 				CFD96F902380FB9300B33BAF /* AppDelegate.swift */,
 				CFD96F922380FB9300B33BAF /* SceneDelegate.swift */,
+				CFD62005238B9374006DFDDB /* PropertyView.swift */,
 				CFD96F942380FB9300B33BAF /* ContentView.swift */,
+				CFD96FA62380FCE200B33BAF /* Taco.swift */,
+				CFD96FA8238101BD00B33BAF /* TacoView.swift */,
 				CFD96F962380FB9600B33BAF /* Assets.xcassets */,
 				CFD96F9B2380FB9600B33BAF /* LaunchScreen.storyboard */,
 				CFD96F9E2380FB9600B33BAF /* Info.plist */,
@@ -92,7 +101,7 @@
 			);
 			name = State;
 			productName = State;
-			productReference = CFD96F8D2380FB9300B33BAF /* State.app */;
+			productReference = CFD96F8D2380FB9300B33BAF /* State1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD96FA72380FCE200B33BAF /* Taco.swift in Sources */,
 				CFD96F912380FB9300B33BAF /* AppDelegate.swift in Sources */,
 				CFD96F932380FB9300B33BAF /* SceneDelegate.swift in Sources */,
+				CFD62006238B9374006DFDDB /* PropertyView.swift in Sources */,
 				CFD96F952380FB9300B33BAF /* ContentView.swift in Sources */,
+				CFD96FA9238101BD00B33BAF /* TacoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +300,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"State/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = State/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.schelly.State;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schelly.State1;
+				PRODUCT_NAME = State1;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,12 +320,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"State/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = State/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.schelly.State;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schelly.State1;
+				PRODUCT_NAME = State1;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
